@@ -29,6 +29,7 @@ $solutionFolderPath = Join-Path $rootPath LeetCodeSolutions Solutions $("_" + $P
 $solutionFilePath = Join-Path $solutionFolderPath Solution.cs;
 $testFolderPath = Join-Path $rootPath LeetCodeTests SolutionsTest $("_" + $ProblemNumberWithPadding);
 $testFilePath = Join-Path $testFolderPath SolutionTest.cs;
+$readmeFilepath = Join-Path $rootPath README.md;
 
 
 $solutionFileTemplate = @"
@@ -78,3 +79,6 @@ New-Item -ItemType Directory -Force -Path $solutionFolderPath;
 New-Item -ItemType Directory -Force -Path $testFolderPath;
 Set-Content -Path $solutionFilePath -Value $solutionFileContent;
 Set-Content -Path $testFilePath -Value $testFileContent;
+
+$readMeAppendContent = [string]::Format("|{0}|``{1}``|[Solution.cs](./LeetCodeSolutions/Solutions/_{0}/Solution.cs)|", $ProblemNumberWithPadding, $SlnMethodName);
+Add-Content -Path $readmeFilepath -Value $readMeAppendContent
