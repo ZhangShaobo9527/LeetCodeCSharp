@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using LeetCodeSolutions.Definitions;
-
 namespace LeetCodeSolutions.Solutions._0003;
 
 public class Solution
