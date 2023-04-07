@@ -9,3 +9,4 @@
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0005/Solution.cs)|
 |0006|[Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0006/Solution.cs)|
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0007/Solution.cs)|
+|0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0008/Solution.cs)|
