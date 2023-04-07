@@ -2,10 +2,14 @@ Param(
     [Parameter(Position = 0, Mandatory=$true)]
     [Int32]$ProblemNumber,
     [Parameter(Position = 1, Mandatory=$true)]
-    [String]$SlnReturnType,
+    [string]$ProblemName,
     [Parameter(Position = 2, Mandatory=$true)]
-    [String]$SlnMethodName,
+    [string]$ProblemLink,
     [Parameter(Position = 3, Mandatory=$true)]
+    [String]$SlnReturnType,
+    [Parameter(Position = 4, Mandatory=$true)]
+    [String]$SlnMethodName,
+    [Parameter(Position = 5, Mandatory=$true)]
     [String]$SlnParameters
 )
 
@@ -80,5 +84,5 @@ New-Item -ItemType Directory -Force -Path $testFolderPath;
 Set-Content -Path $solutionFilePath -Value $solutionFileContent;
 Set-Content -Path $testFilePath -Value $testFileContent;
 
-$readMeAppendContent = [string]::Format("|{0}|``{1}``|[Solution.cs](./LeetCodeSolutions/Solutions/_{0}/Solution.cs)|", $ProblemNumberWithPadding, $SlnMethodName);
+$readMeAppendContent = [string]::Format("|{0}|[{1}]({2})|[``Solution.cs``](./LeetCodeSolutions/Solutions/_{0}/Solution.cs)|", $ProblemNumberWithPadding, $ProblemName, $ProblemLink);
 Add-Content -Path $readmeFilepath -Value $readMeAppendContent
