@@ -7,3 +7,4 @@
 |0003|`LengthOfLongestSubstring`|[Solution.cs](./LeetCodeSolutions/Solutions/_0003/Solution.cs)|
 |0004|`FindMedianSortedArrays`|[Solution.cs](./LeetCodeSolutions/Solutions/_0004/Solution.cs)|
 |0005|`LongestPalindrome`|[Solution.cs](./LeetCodeSolutions/Solutions/_0005/Solution.cs)|
+|0006|`Convert`|[Solution.cs](./LeetCodeSolutions/Solutions/_0006/Solution.cs)|
