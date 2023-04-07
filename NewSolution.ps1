@@ -36,14 +36,7 @@ $testFilePath = Join-Path $testFolderPath SolutionTest.cs;
 $readmeFilepath = Join-Path $rootPath README.md;
 
 
-$solutionFileTemplate = @"
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using LeetCodeSolutions.Definitions;
-
-namespace LeetCodeSolutions.Solutions._{0};
+$solutionFileTemplate = @"namespace LeetCodeSolutions.Solutions._{0};
 
 public class Solution
 {{
