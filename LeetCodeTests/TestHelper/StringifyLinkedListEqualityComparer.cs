@@ -12,15 +12,23 @@ internal class StringifyLinkedListEqualityComparer : IEqualityComparer<string>
 {
     public bool Equals(string? x, string? y)
     {
-        if(x is null || y is null)
+        IList<int> xNodes = ListHelper<int>.ParseListFromString(x!, int.Parse);
+        IList<int> yNodes = ListHelper<int>.ParseListFromString(y!, int.Parse);
+
+        if(xNodes.Count != yNodes.Count)
         {
-            throw new Exception("stringify list should not be null");
+            return false;
         }
 
-        ListNode? lx = LinkedListHelper.ParseLinkedListFromString(x);
-        ListNode? ly = LinkedListHelper.ParseLinkedListFromString(y);
+        for(int i = 0; i < xNodes.Count; ++i)
+        {
+            if (xNodes[i] != yNodes[i])
+            {
+                return false;
+            }
+        }
 
-        return new LinkedListEqualityComparer().Equals(lx, ly);
+        return true;
     }
 
     public int GetHashCode([DisallowNull] string obj)

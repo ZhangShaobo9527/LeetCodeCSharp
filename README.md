@@ -22,3 +22,4 @@
 |0018|[4Sum](https://leetcode.com/problems/4sum/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0018/Solution.cs)|
 |0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0019/Solution.cs)|
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0020/Solution.cs)|
+|0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0021/Solution.cs)|

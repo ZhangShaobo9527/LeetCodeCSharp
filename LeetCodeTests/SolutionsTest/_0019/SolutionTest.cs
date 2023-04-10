@@ -14,11 +14,10 @@ public class SolutionTest
     public void RemoveNthFromEndTest(string stringifyList, int n, string stringifyExpectedList)
     {
         ListNode head = LinkedListHelper.ParseLinkedListFromString(stringifyList)!;
-        ListNode expected = LinkedListHelper.ParseLinkedListFromString(stringifyExpectedList)!;
-        ListNode actual = new Solution().RemoveNthFromEnd(head, n);
+        string actual = LinkedListHelper.Stringify(new Solution().RemoveNthFromEnd(head, n));
         Assert.Equal(
-            expected: expected,
+            expected: stringifyExpectedList,
             actual: actual,
-            comparer: new LinkedListEqualityComparer());
+            comparer: new StringifyLinkedListEqualityComparer());
     }
 }
