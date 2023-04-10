@@ -14,11 +14,11 @@ public class SolutionTest
     public void AddTwoNumbersTest(string l1Str, string l2Str, string expectedStr)
     {
         ListNode? actual = new Solution().AddTwoNumbers(
-            ListHelper.ParseLinkedListFromString(l1Str), 
-            ListHelper.ParseLinkedListFromString(l2Str));
+            LinkedListHelper.ParseLinkedListFromString(l1Str), 
+            LinkedListHelper.ParseLinkedListFromString(l2Str));
         Assert.Equal(
             expected:expectedStr,
-            actual: ListHelper.Stringify(actual),
-            comparer: new StringifyListEqualityComparer());
+            actual: LinkedListHelper.Stringify(actual),
+            comparer: new StringifyLinkedListEqualityComparer());
     }
 }

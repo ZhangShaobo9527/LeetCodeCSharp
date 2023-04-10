@@ -1,59 +1,63 @@
-﻿using LeetCodeSolutions.Definitions;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace LeetCodeTests.TestHelper;
 
-internal class ListHelper
+internal static class ListHelper<T>
 {
-    public static ListNode? ParseLinkedListFromString(string line)
+    public static IList<T> ParseListFromString(string line, Func<string, T> parser)
     {
-        ListNode? head = null;
-        ListNode? tail = null;
-
-        string[] elementStrs = line.Substring(1, line.Length - 2).Split(",");
-        foreach (string elementStr in elementStrs)
+        List<T> res = new List<T>();
+        if(string.IsNullOrEmpty(line))
         {
-            if (string.IsNullOrEmpty(elementStr))
-            {
-                continue;
-            }
-
-            int number = int.Parse(elementStr);
-            if (head == null)
-            {
-                tail = head = new ListNode(number, null);
-            }
-            else
-            {
-                tail!.next = new ListNode(number, null);
-                tail = tail.next;
-            }
+            return res;
         }
 
-        return head;
+        line = line.Trim();
+        var elementStrs = line.Substring(1, line.Length - 2)
+            .Split(",")
+            .Select(e => e.Trim())
+            .Where(e => !string.IsNullOrEmpty(e));
+        foreach(string e in elementStrs)
+        {
+            res.Add(parser.Invoke(e));
+        }
+        return res;
     }
 
-    public static string Stringify(ListNode? l)
+    public static IList<IList<T>> ParseNestedListFromString(string line, Func<string, T> parser)
     {
-        if(l is null)
+        List<IList<T>> res = new List<IList<T>>();
+        if(string.IsNullOrEmpty(line))
         {
-            return "[]";
+            return res;
         }
-        StringBuilder sb = new StringBuilder();
-        sb.Append("[");
-        while(l is not null)
+
+        line = line.Trim();
+        line = line.Substring(1, line.Length - 2).Trim();
+        int startIdx = 0;
+
+        for(
+            int left = line.IndexOf('[', startIdx), right = line.IndexOf(']', startIdx);
+            left != -1 && right != -1;
+            left = line.IndexOf('[', startIdx), right = line.IndexOf(']', startIdx)
+            )
         {
-            if(l.next is null)
+            res.Add(ParseListFromString(line.Substring(left, right - left + 1), parser));
+            startIdx = right + 1;
+            if(startIdx >= line.Length)
             {
-                sb.Append($"{l.val}");
+                break;
             }
-            else
+            while (line[startIdx] == ' ' || line[startIdx] == ',')
             {
-                sb.Append($"{l.val}, ");
+                startIdx++;
             }
-            l = l.next;
         }
-        sb.Append("]");
-        return sb.ToString();
+
+        return res;
     }
 }
