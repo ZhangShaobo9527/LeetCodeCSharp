@@ -29,3 +29,4 @@
 |0025|[Reverse Nodes in K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0025/Solution.cs)|
 |0026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0026/Solution.cs)|
 |0027|[Remove Element](https://leetcode.com/problems/remove-element/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0027/Solution.cs)|
+|0028|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0028/Solution.cs)|
