@@ -13,3 +13,4 @@
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0009/Solution.cs)|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0010/Solution.cs)|
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0011/Solution.cs)|
+|0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0012/Solution.cs)|
