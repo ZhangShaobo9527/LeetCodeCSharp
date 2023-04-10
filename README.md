@@ -28,3 +28,4 @@
 |0024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0024/Solution.cs)|
 |0025|[Reverse Nodes in K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0025/Solution.cs)|
 |0026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0026/Solution.cs)|
+|0027|[Remove Element](https://leetcode.com/problems/remove-element/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0027/Solution.cs)|
