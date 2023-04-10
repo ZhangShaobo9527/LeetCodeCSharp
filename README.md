@@ -20,3 +20,4 @@
 |0016|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0016/Solution.cs)|
 |0017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0017/Solution.cs)|
 |0018|[4Sum](https://leetcode.com/problems/4sum/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0018/Solution.cs)|
+|0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0019/Solution.cs)|
