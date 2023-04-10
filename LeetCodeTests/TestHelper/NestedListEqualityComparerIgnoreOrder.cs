@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LeetCodeTests.TestHelper;
 
-internal class NestedListEqualityComparerIgnoreOrder<T> : IEqualityComparer<IList<IList<T>>> where T : IComparable
+internal class NestedListEqualityComparerIgnoreOrder<T> : IEqualityComparer<IList<IList<T>>> where T : IComparable<T>
 {
     public bool Equals(IList<IList<T>>? x, IList<IList<T>>? y)
     {

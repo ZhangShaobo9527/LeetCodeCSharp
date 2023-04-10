@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LeetCodeTests.TestHelper;
 
-internal class ArrayEqualityComparerIgnoreOrder<T> : IEqualityComparer<T[]> where T : IComparable<T>
+internal class ListEqualityComparerIgnoreOrder<T> : IEqualityComparer<IList<T>> where T : IComparable<T>
 {
-    public bool Equals(T[]? x, T[]? y)
+    public bool Equals(IList<T>? x, IList<T>? y)
     {
         if(x is null && y is null)
         {
@@ -21,7 +21,7 @@ internal class ArrayEqualityComparerIgnoreOrder<T> : IEqualityComparer<T[]> wher
             return false;
         }
 
-        if(x.Length != y.Length)
+        if(x.Count != y.Count)
         {
             return false;
         }
@@ -38,9 +38,10 @@ internal class ArrayEqualityComparerIgnoreOrder<T> : IEqualityComparer<T[]> wher
         }
 
         return true;
+
     }
 
-    public int GetHashCode([DisallowNull] T[] obj)
+    public int GetHashCode([DisallowNull] IList<T> obj)
     {
         throw new NotImplementedException();
     }
