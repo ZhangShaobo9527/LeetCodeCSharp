@@ -24,3 +24,4 @@
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0020/Solution.cs)|
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0021/Solution.cs)|
 |0022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0022/Solution.cs)|
+|0023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0023/Solution.cs)|
