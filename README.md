@@ -23,3 +23,4 @@
 |0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0019/Solution.cs)|
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0020/Solution.cs)|
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0021/Solution.cs)|
+|0022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0022/Solution.cs)|
