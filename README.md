@@ -26,3 +26,4 @@
 |0022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0022/Solution.cs)|
 |0023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0023/Solution.cs)|
 |0024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0024/Solution.cs)|
+|0025|[Reverse Nodes in K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0025/Solution.cs)|
