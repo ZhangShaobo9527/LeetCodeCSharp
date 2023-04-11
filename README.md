@@ -32,3 +32,4 @@
 |0028|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0028/Solution.cs)|
 |0029|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0029/Solution.cs)|
 |0030|[Substring with Concatenationi of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0030/Solution.cs)|
+|0031|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0031/Solution.cs)|
