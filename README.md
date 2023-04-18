@@ -34,3 +34,4 @@
 |0030|[Substring with Concatenationi of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0030/Solution.cs)|
 |0031|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0031/Solution.cs)|
 |0032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0032/Solution.cs)|
+|0033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0033/Solution.cs)|
