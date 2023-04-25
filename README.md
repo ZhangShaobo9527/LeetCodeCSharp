@@ -35,3 +35,4 @@
 |0031|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0031/Solution.cs)|
 |0032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0032/Solution.cs)|
 |0033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0033/Solution.cs)|
+|0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0034/Solution.cs)|
