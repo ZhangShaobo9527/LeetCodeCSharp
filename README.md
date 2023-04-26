@@ -38,3 +38,4 @@
 |0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0034/Solution.cs)|
 |0035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0035/Solution.cs)|
 |0036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0036/Solution.cs)|
+|0037|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0037/Solution.cs)|
