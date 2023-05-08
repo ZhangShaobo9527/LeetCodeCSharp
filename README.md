@@ -39,3 +39,4 @@
 |0035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0035/Solution.cs)|
 |0036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0036/Solution.cs)|
 |0037|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0037/Solution.cs)|
+|0038|[Count and Say](https://leetcode.com/problems/count-and-say/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0038/Solution.cs)|
