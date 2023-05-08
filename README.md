@@ -40,3 +40,4 @@
 |0036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0036/Solution.cs)|
 |0037|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0037/Solution.cs)|
 |0038|[Count and Say](https://leetcode.com/problems/count-and-say/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0038/Solution.cs)|
+|0039|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0039/Solution.cs)|
