@@ -45,3 +45,4 @@
 |0041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0041/Solution.cs)|
 |0042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0042/Solution.cs)|
 |0043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0043/Solution.cs)|
+|0044|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0044/Solution.cs)|
