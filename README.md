@@ -44,3 +44,4 @@
 |0040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0040/Solution.cs)|
 |0041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0041/Solution.cs)|
 |0042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0042/Solution.cs)|
+|0043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0043/Solution.cs)|
