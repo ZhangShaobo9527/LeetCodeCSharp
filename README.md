@@ -47,3 +47,4 @@
 |0043|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0043/Solution.cs)|
 |0044|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0044/Solution.cs)|
 |0045|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0045/Solution.cs)|
+|0046|[Permutations](https://leetcode.com/problems/permutations/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0046/Solution.cs)|
