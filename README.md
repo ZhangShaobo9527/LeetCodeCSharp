@@ -49,3 +49,4 @@
 |0045|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0045/Solution.cs)|
 |0046|[Permutations](https://leetcode.com/problems/permutations/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0046/Solution.cs)|
 |0047|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0047/Solution.cs)|
+|0048|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0048/Solution.cs)|
