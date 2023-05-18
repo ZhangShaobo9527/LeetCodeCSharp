@@ -50,3 +50,4 @@
 |0046|[Permutations](https://leetcode.com/problems/permutations/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0046/Solution.cs)|
 |0047|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0047/Solution.cs)|
 |0048|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0048/Solution.cs)|
+|0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0049/Solution.cs)|
