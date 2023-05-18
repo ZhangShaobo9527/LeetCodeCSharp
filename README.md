@@ -52,3 +52,4 @@
 |0048|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0048/Solution.cs)|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0049/Solution.cs)|
 |0050|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0050/Solution.cs)|
+|0051|[N-Queens](https://leetcode.com/problems/n-queens/)|[`Solution.cs`](./LeetCodeSolutions/Solutions/_0051/Solution.cs)|
